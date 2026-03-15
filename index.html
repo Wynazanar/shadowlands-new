@@ -14,33 +14,82 @@
             <div class="header">
                 <div class="logo">
                     <img src="" alt="">
-                    <span>ShadowLands</span>
+                    <a href=" ">ShadowLands</a>
                 </div>
                 <div class="nav">
                     <a href="#">Главная</a>
                     <a href="#">О проекте</a>
                     <a href="#">Правила</a>
+                    <a href="#towns">Города</a>
                     <a href="#">Новости</a>
-                    <a href="#">Города</a>
                 </div>
-                <button>Войти</button>
+                <div id="account">
+                    <button>Войти</button>
+                </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <img src="src/images/intro.jpgs">
+        <img src="src/images/intro.jpg">
     </main>
 
     <section id="towns">
         <div class="container">
+            <h2 class="section-title">Города</h2>
             <div class="towns">
                 <div class="town">
                     <img src="">
                     <h3>Название</h3>
-                    <a href="#">О городе...</a>
+                    <h3>Небольшое описание города</h3>
+                    <button>О городе...</button>
                 </div>
             </div>
         </div>
     </section>
+
+<div class="modal hide">  
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Название города</h3>
+            <p>x</p>
+        </div>
+        <div class="modal-body">
+            <div class="body-photos">
+                <img src="src/images/towns/der.jpg" alt="Дервиль">
+                <div class="photo-list">
+                    <img src="src/images/towns/der1.jpg" alt="Дервиль">
+                    <img src="src/images/towns/der2.jpg" alt="Дервиль">
+                </div>
+            </div>
+            <div class="body-content">
+                <p>asdads</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script>
+    let scripts = ["auth", "towns"];
+    const body = document.querySelector("body");
+    scripts.forEach(script => {
+        const _script = document.createElement("script");
+        _script.src = `src/scripts/${script}.js`;
+        body.appendChild(_script);
+    });
+</script>
 </html>
