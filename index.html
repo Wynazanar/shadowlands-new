@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -18,9 +20,9 @@
                 </div>
                 <div class="nav">
                     <a href="#">Главная</a>
-                    <a href="#">О проекте</a>
-                    <a href="#">Правила</a>
                     <a href="#towns">Города</a>
+                    <a href="#shops">Магазины</a>
+                    <a href="#">Работа</a>
                     <a href="#">Новости</a>
                 </div>
                 <div id="account">
@@ -36,37 +38,19 @@
     <section id="towns">
         <div class="container">
             <h2 class="section-title">Города</h2>
-            <div class="towns">
-                <div class="town">
-                    <img src="">
-                    <h3>Название</h3>
-                    <h3>Небольшое описание города</h3>
-                    <button>О городе...</button>
-                </div>
-            </div>
+            <div class="towns"></div>
+        </div>
+    </section>
+    
+    <section id="shops">
+        <div class="container">
+            <h2 class="section-title">Магазины</h2>
+            <div class="shop-categories"></div>
+            <div class="shops"></div>
         </div>
     </section>
 
-<div class="modal hide">  
-    <div class="modal-content">
-        <div class="modal-header">
-            <h3>Название города</h3>
-            <p>x</p>
-        </div>
-        <div class="modal-body">
-            <div class="body-photos">
-                <img src="src/images/towns/der.jpg" alt="Дервиль">
-                <div class="photo-list">
-                    <img src="src/images/towns/der1.jpg" alt="Дервиль">
-                    <img src="src/images/towns/der2.jpg" alt="Дервиль">
-                </div>
-            </div>
-            <div class="body-content">
-                <p>asdads</p>
-            </div>
-        </div>
-    </div>
-</div>
+    <div class="modal hide"></div>
 
     <footer>
         <div class="container">
@@ -84,7 +68,7 @@
     </footer>
 </body>
 <script>
-    let scripts = ["auth", "towns"];
+    let scripts = ["users", "auth", "towns", "shops"];
     const body = document.querySelector("body");
     scripts.forEach(script => {
         const _script = document.createElement("script");
@@ -92,4 +76,5 @@
         body.appendChild(_script);
     });
 </script>
+
 </html>

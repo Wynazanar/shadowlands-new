@@ -5,6 +5,7 @@
     --font-family-sans: "Open Sans", sans-serif;
     --primary: #f38181;
     --secondary:#fce38a;
+    --secondary-border:#ffdc5d;
     --mint: #95e1d3;
     --mint-light: #b5eae0;
     --header: #eb8b8d;
@@ -107,7 +108,7 @@ header {
 
 
 #towns {
-    margin-top: 75px;
+    padding-top: 75px;
 }
 
 .towns {
@@ -190,6 +191,53 @@ header {
 
 
 
+#shops {
+    background: var(--bg-light);
+    padding-top: 75px;
+}
+
+.shops {
+    margin-top: 15px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+}
+
+.shop-categories {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    background: var(--white);
+    padding: 5px 10px;
+    border: 1px solid var(--gray);
+    border-radius: 7px;
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.shop:hover {
+    background: var(--secondary);
+    border: 1px solid var(--secondary-border);
+}
+
+.shop img {
+    max-width: 64px;
+}
+
+.shop h3 {
+    font-weight: 700;
+}
+
+.shop p {
+    color: var(--text-light);
+    font-size: 14px;
+}
 
 
 
