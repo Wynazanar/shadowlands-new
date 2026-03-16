@@ -20,11 +20,6 @@
 
 }
 
-img {
-    pointer-events: none;
-    user-select: none;
-}
-
 * {
     font-family: var(--font-family-sans);
     color: var(--text);
