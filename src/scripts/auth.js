@@ -59,7 +59,15 @@ async function login() {
 
     const player = await findPlayer(login.value.toLowerCase(), password.value);
     if (player != null) {
-        localStorage.setItem("player", JSON.stringify(player));
+        const player_toLocalStorage = {
+            id: player.id,
+            nickname: player.nickname,
+            uuid: player.uuid,
+            balance: player.balance,
+            role: player.role
+        };
+
+        localStorage.setItem("player", JSON.stringify(player_toLocalStorage));
         closeLoginModal();
         location.reload();
     }
