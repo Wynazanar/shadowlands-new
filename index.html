@@ -19,11 +19,11 @@
                     <a href=" ">ShadowLands</a>
                 </div>
                 <div class="nav">
-                    <a href="#">Главная</a>
+                    <a href="#home">Главная</a>
                     <a href="#towns">Города</a>
                     <a href="#shops">Магазины</a>
-                    <a href="#">Работа</a>
-                    <a href="#">Новости</a>
+                    <a href="#jobs">Работа</a>
+                    <a href="#news">Новости</a>
                 </div>
                 <div id="account">
                     <button onclick="openLoginModal()">Войти</button>
@@ -31,7 +31,7 @@
             </div>
         </div>
     </header>
-    <main class="main">
+    <main class="main" id="home">
         <img src="src/images/intro.jpg">
     </main>
 
@@ -45,6 +45,22 @@
     <section id="shops">
         <div class="container">
             <h2 class="section-title">Магазины</h2>
+            <div class="shop-categories"></div>
+            <div class="shops"></div>
+        </div>
+    </section>
+    
+    <section id="jobs">
+        <div class="container">
+            <h2 class="section-title">Работа</h2>
+            <div class="shop-categories"></div>
+            <div class="shops"></div>
+        </div>
+    </section>
+    
+    <section id="news">
+        <div class="container">
+            <h2 class="section-title">Новости</h2>
             <div class="shop-categories"></div>
             <div class="shops"></div>
         </div>
@@ -68,7 +84,8 @@
     </footer>
 </body>
 <script>
-    let scripts = ["users", "auth", "towns", "shops"];
+    const scripts = ["users", "towns", "auth", "shops"];
+
     const body = document.querySelector("body");
     scripts.forEach(script => {
         const _script = document.createElement("script");
@@ -76,5 +93,4 @@
         body.appendChild(_script);
     });
 </script>
-
 </html>

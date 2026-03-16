@@ -77,9 +77,11 @@ function openLoginModal() {
     </div>`;
 
     modal.classList.remove("hide");
+    modal.classList.add("show");
 }
 
 function closeLoginModal() {
     let modal = document.querySelector(".modal");
+    modal.classList.remove("show");
     modal.classList.add("hide");
 }
