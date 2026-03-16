@@ -7,7 +7,7 @@ async function findPlayer(login, password) {
         }
 
         PLAYERS = await response.json();
-        return PLAYERS.find(p => p.login == login && p.password == password);
+        return PLAYERS.find(p => p.login == login || p.nickname == login && p.password == password);
     } catch (e) {
         console.error(e.message);
     }
@@ -49,10 +49,15 @@ function logout() {
 }
 
 async function login() {
-    let login = document.querySelector("#login").value;
-    let password = document.querySelector("#password").value;
+    let login = document.querySelector("#login");
+    let password = document.querySelector("#password");
 
-    const player = await findPlayer(login, password);
+    if (login.value == null || password.value == null) {
+        alert("Ошибка входа");
+        return 0;
+    }
+
+    const player = await findPlayer(login.value.toLowercase(), password.value);
     if (player != null) {
         localStorage.setItem("player", JSON.stringify(player));
         closeLoginModal();
@@ -64,12 +69,16 @@ function openLoginModal() {
     let modal = document.querySelector(".modal");
 
     modal.innerHTML = 
-        `<div class="modal-content" style="height: fit-content;">
+    `<div class="modal-content" style="height: fit-content;">
         <div class="modal-header">
             <h3>Войти в аккаунт</h3>
-            <p style="cursor: pointer;" onclick="closeLoginModal()">x</p>
+            <p style="cursor: pointer;" onclick="closeLoginModal()">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" >
+                    <path d="m7.76 14.83-2.83 2.83 1.41 1.41 2.83-2.83 2.12-2.12.71-.71.71.71 1.41 1.42 3.54 3.53 1.41-1.41-3.53-3.54-1.42-1.41-.71-.71 5.66-5.66-1.41-1.41L12 10.59 6.34 4.93 4.93 6.34 10.59 12l-.71.71z"></path>
+                </svg>
+            </p>
         </div>
-        <div class="modal-body" style="flex-direction: column;">
+        <div class="modal-body login" style="flex-direction: column;">
             <input id="login" placeholder="Логин">
             <input id="password" placeholder="Пароль">
             <button onclick="login()">Войти</button>

@@ -407,3 +407,34 @@ footer * {
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-body.login {
+    width: 550px;
+    row-gap: 7px;
+}
+
+.modal-body.login input, button {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.modal-body.login button {
+    background: var(--primary);
+    border: 1px solid var(--primary-border);
+    font-weight: 700;
+    color: var(--white);
+}
