@@ -93,7 +93,7 @@ async function openAboutTownModal(town) {
                                             <p>${villager.role}</p>
                                         </div>
                                     </div>
-                                    <a href="#">Профиль</a>
+                                    <a href="accounts/?id=${villager.id}&nickname=${villager.nickname}">Профиль</a>
                                 </div>`).join("")}
                         </div>
                     </div>` : ""}

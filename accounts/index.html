@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль игрока</title>
+    <link rel="stylesheet" href="../src/styles/reset.css">
+    <link rel="stylesheet" href="../src/styles/global.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="" alt="">
+                    <a href=" ">ShadowLands</a>
+                </div>
+                <div class="nav">
+                    <a href="../">Главная</a>
+                    <a href="../#towns">Города</a>
+                    <a href="../#shops">Магазины</a>
+                    <a href="../#jobs">Работа</a>
+                    <a href="../#news">Новости</a>
+                </div>
+                <div id="account">
+                    <button onclick="openLoginModal()">Войти</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal hide"></div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+                <p>asdasdasd</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const scripts = ["users", "towns", "auth", "shops"];
+
+    const body = document.querySelector("body");
+    scripts.forEach(script => {
+        const _script = document.createElement("script");
+        _script.src = `src/scripts/${script}.js`;
+        body.appendChild(_script);
+    });
+</script>
+</html>

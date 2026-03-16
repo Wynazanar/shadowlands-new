@@ -80,7 +80,10 @@
             "atlan.png"
         ],
         "villagers": [
-            
+            {"player_id": 27, "role": "Мэр"},
+            {"player_id": 98, "role": "Горожанин"},
+            {"player_id": 89, "role": "Горожанин"},
+            {"player_id": 89, "role": "Горожанин"}
         ]
     },
     {
