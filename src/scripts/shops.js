@@ -53,6 +53,7 @@ function loadShops() {
                     <span>—</span>
                     <h4>${shop.cost} <span style="font-size: 12px;">мф</span></h4>
                 </div>
+                <button>Забронировать</button>
             </div>
         </div>`;
     });

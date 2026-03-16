@@ -1,0 +1,947 @@
+[
+    {
+        "id": 1,
+        "nickname": "_ShadowPriestok_",
+        "login": "_shadowpriestok_",
+        "password": "_shadowpriestok_",
+        "uuid": "01685f4f-a00f-45c8-a546-4fbb3d717be9",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 2,
+        "nickname": "Birsenberg",
+        "login": "birsenberg",
+        "password": "birsenberg",
+        "uuid": "80423cca-49c3-43d1-9e85-be9e8f5ba6bf",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 3,
+        "nickname": "_HappyLime_",
+        "login": "_happylime_",
+        "password": "_happylime_",
+        "uuid": "8b8f4838-ebce-48c6-9fe1-9cfec9de4f63",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 4,
+        "nickname": "Magpie",
+        "login": "magpie",
+        "password": "magpie",
+        "uuid": "13076436-8088-4a81-a49f-705224c32dee",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 5,
+        "nickname": "_LittleDarkness_",
+        "login": "_littledarkness_",
+        "password": "_littledarkness_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 6,
+        "nickname": "HomelyFox",
+        "login": "homelyfox",
+        "password": "homelyfox",
+        "uuid": "c4a56c0a-771f-428b-ab23-31099b2b873c",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 7,
+        "nickname": "_HappyPeach_",
+        "login": "_happypeach_",
+        "password": "_happypeach_",
+        "uuid": "8ec69553-4ac8-445c-a363-99cad1eabcf4",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 8,
+        "nickname": "Siena",
+        "login": "siena",
+        "password": "siena",
+        "uuid": "5cc7e8cc-9c58-46a6-baf8-09e526bcc68f",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 9,
+        "nickname": "SkyDuster",
+        "login": "skyduster",
+        "password": "skyduster",
+        "uuid": "767bebe0-52d9-4cbb-aafa-c943935943be",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 10,
+        "nickname": "_solomina_vera_",
+        "login": "_solomina_vera_",
+        "password": "_solomina_vera_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 11,
+        "nickname": "Ksesha___",
+        "login": "ksesha___",
+        "password": "ksesha___",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 12,
+        "nickname": "_chereshenKa_",
+        "login": "_chereshenka_",
+        "password": "_chereshenka_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 13,
+        "nickname": "4qsugar",
+        "login": "4qsugar",
+        "password": "4qsugar",
+        "uuid": "44b558ab-3839-4ad2-b2fb-542d06e14bd2",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 14,
+        "nickname": "oO_PanDaLine_Oo",
+        "login": "oo_pandaline_oo",
+        "password": "oo_pandaline_oo",
+        "uuid": "66f1362d-c60d-45a0-9f3d-d882dc620a8a",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 15,
+        "nickname": "Fantastic",
+        "login": "fantastic",
+        "password": "fantastic",
+        "uuid": "61c4a272-202c-491b-a583-783e2787b5cc",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 16,
+        "nickname": "varuha_12",
+        "login": "varuha_12",
+        "password": "varuha_12",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 17,
+        "nickname": "PolinaKX",
+        "login": "polinakx",
+        "password": "polinakx",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 18,
+        "nickname": "LapaPaw",
+        "login": "lapapaw",
+        "password": "lapapaw",
+        "uuid": "f7084cbd-d07b-479d-948c-6efdac9ec035",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 19,
+        "nickname": "Maybejuliar",
+        "login": "maybejuliar",
+        "password": "maybejuliar",
+        "uuid": "ac37f287-67c6-4920-a84c-1663db8fbc87",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 20,
+        "nickname": "Vika_Vik",
+        "login": "vika_vik",
+        "password": "vika_vik",
+        "uuid": "938e2188-90a8-476d-8b60-13e7373d30fe",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 21,
+        "nickname": "chernyay",
+        "login": "chernyay",
+        "password": "chernyay",
+        "uuid": "cd334cf7-c6b1-4dab-9796-d8580c840018",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 22,
+        "nickname": "Kvars",
+        "login": "kvars",
+        "password": "kvars",
+        "uuid": "6aed5a78-0885-4d04-9363-0a06c937bfc1",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 23,
+        "nickname": "SightlessShadow",
+        "login": "sightlessshadow",
+        "password": "sightlessshadow",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 24,
+        "nickname": "AleksDen",
+        "login": "aleksden",
+        "password": "aleksden",
+        "uuid": "3a5965cd-0a2d-4e4a-8376-85e262e0d1d6",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 25,
+        "nickname": "_Beedy112_",
+        "login": "_beedy112_",
+        "password": "_beedy112_",
+        "uuid": "4db94c32-a02b-400b-ba5f-10cbc6d2628a",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 26,
+        "nickname": "Mari_rou",
+        "login": "mari_rou",
+        "password": "mari_rou",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 27,
+        "nickname": "AlexCot",
+        "login": "alexcot",
+        "password": "alexcot",
+        "uuid": "80b86fdc-36b8-45ec-9308-d8f2f527829f",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 28,
+        "nickname": "LeonSlaim",
+        "login": "leonslaim",
+        "password": "leonslaim",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 29,
+        "nickname": "mr_ytenok",
+        "login": "mr_ytenok",
+        "password": "mr_ytenok",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 30,
+        "nickname": "Ekateriinburg",
+        "login": "ekateriinburg",
+        "password": "ekateriinburg",
+        "uuid": "50821b68-c1c1-4cc2-acf1-1334e9043e63",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 31,
+        "nickname": "ivanbar2008_1_",
+        "login": "ivanbar2008_1_",
+        "password": "ivanbar2008_1_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 32,
+        "nickname": "Gumball_great",
+        "login": "gumball_great",
+        "password": "gumball_great",
+        "uuid": "7cd7f607-68fe-45dc-b517-367209a60b32",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 33,
+        "nickname": "_XxEtoktOxX_",
+        "login": "_xxetoktoxx_",
+        "password": "_xxetoktoxx_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 34,
+        "nickname": "Den_Gi",
+        "login": "den_gi",
+        "password": "den_gi",
+        "uuid": "7bc900e4-015e-47c3-85aa-e04e3d153954",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 35,
+        "nickname": "LuckyDog1989",
+        "login": "luckydog1989",
+        "password": "luckydog1989",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 36,
+        "nickname": "caxapk",
+        "login": "caxapk",
+        "password": "caxapk",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 37,
+        "nickname": "_Svetlanka_",
+        "login": "_svetlanka_",
+        "password": "_svetlanka_",
+        "uuid": "57808bfe-cb1a-44ab-b690-f3eda52258e7",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 38,
+        "nickname": "_likusya_",
+        "login": "_likusya_",
+        "password": "_likusya_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 39,
+        "nickname": "1_NaTaShKa_1",
+        "login": "1_natashka_1",
+        "password": "1_natashka_1",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 40,
+        "nickname": "denchik_vey228",
+        "login": "denchik_vey228",
+        "password": "denchik_vey228",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 41,
+        "nickname": "sonya_emae",
+        "login": "sonya_emae",
+        "password": "sonya_emae",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 42,
+        "nickname": "klubnika_pris",
+        "login": "klubnika_pris",
+        "password": "klubnika_pris",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 43,
+        "nickname": "4qnk",
+        "login": "4qnk",
+        "password": "4qnk",
+        "uuid": "564f7822-691d-4c3b-9f12-ea52f2f0f8ce",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 44,
+        "nickname": "Gdasha7",
+        "login": "gdasha7",
+        "password": "gdasha7",
+        "uuid": "f0934852-b704-42fb-8a16-c8479b1a7df1",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 45,
+        "nickname": "_osminoshKa_",
+        "login": "_osminoshka_",
+        "password": "_osminoshka_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 46,
+        "nickname": "Dasha7887",
+        "login": "dasha7887",
+        "password": "dasha7887",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 47,
+        "nickname": "arA_68",
+        "login": "ara_68",
+        "password": "ara_68",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 48,
+        "nickname": "Wynazanar",
+        "login": "wynazanar",
+        "password": "wynazanar",
+        "uuid": "d8cc6cb6-e884-47a0-a35b-80f41699f17c",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 49,
+        "nickname": "Nazaryok",
+        "login": "nazaryok",
+        "password": "nazaryok",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 50,
+        "nickname": "lubaPersik",
+        "login": "lubapersik",
+        "password": "lubapersik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 51,
+        "nickname": "s228",
+        "login": "s228",
+        "password": "s228",
+        "uuid": "543e7de7-ce85-467a-81d0-d6ce6fb6a8e9",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 52,
+        "nickname": "____Dasha__",
+        "login": "____dasha__",
+        "password": "____dasha__",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 53,
+        "nickname": "Mashidze",
+        "login": "mashidze",
+        "password": "mashidze",
+        "uuid": "ad672c21-e692-445a-93c2-d2e2d5002e5f",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 54,
+        "nickname": "_ananasya_",
+        "login": "_ananasya_",
+        "password": "_ananasya_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 55,
+        "nickname": "_Зеqpipka7_",
+        "login": "_зeqpipka7_",
+        "password": "_зeqpipka7_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 56,
+        "nickname": "Quick_Master",
+        "login": "quick_master",
+        "password": "quick_master",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 57,
+        "nickname": "chernevskayanya",
+        "login": "chernevskayanya",
+        "password": "chernevskayanya",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 58,
+        "nickname": "Haboraks",
+        "login": "haboraks",
+        "password": "haboraks",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 59,
+        "nickname": "G_R_I_G_O_R_I_I",
+        "login": "g_r_i_g_o_r_i_i",
+        "password": "g_r_i_g_o_r_i_i",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 60,
+        "nickname": "juliya229",
+        "login": "juliya229",
+        "password": "juliya229",
+        "uuid": "f185db45-d4d1-48c8-9d7e-6f7661b8515d",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 61,
+        "nickname": "Sad_Persik",
+        "login": "sad_persik",
+        "password": "sad_persik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 62,
+        "nickname": "RomanMaster",
+        "login": "romanmaster",
+        "password": "romanmaster",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 63,
+        "nickname": "wantinghasbat",
+        "login": "wantinghasbat",
+        "password": "wantinghasbat",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 64,
+        "nickname": "Compotik",
+        "login": "compotik",
+        "password": "compotik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 65,
+        "nickname": "_FunnyLemon_",
+        "login": "_funnylemon_",
+        "password": "_funnylemon_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 66,
+        "nickname": "Yrosha_Pin",
+        "login": "yrosha_pin",
+        "password": "yrosha_pin",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 67,
+        "nickname": "_Navin_",
+        "login": "_navin_",
+        "password": "_navin_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 68,
+        "nickname": "_Ovechka_Liza_",
+        "login": "_ovechka_liza_",
+        "password": "_ovechka_liza_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 69,
+        "nickname": "HYFGD",
+        "login": "hyfgd",
+        "password": "hyfgd",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 70,
+        "nickname": "_nadushka__",
+        "login": "_nadushka__",
+        "password": "_nadushka__",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 71,
+        "nickname": "fleshmen1234",
+        "login": "fleshmen1234",
+        "password": "fleshmen1234",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 72,
+        "nickname": "tata2018",
+        "login": "tata2018",
+        "password": "tata2018",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 73,
+        "nickname": "pussik",
+        "login": "pussik",
+        "password": "pussik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 74,
+        "nickname": "1zaydasha1",
+        "login": "1zaydasha1",
+        "password": "1zaydasha1",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 75,
+        "nickname": "_Ulka_",
+        "login": "_ulka_",
+        "password": "_ulka_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 76,
+        "nickname": "0_Hemononchik_0",
+        "login": "0_hemononchik_0",
+        "password": "0_hemononchik_0",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 77,
+        "nickname": "Karri007",
+        "login": "karri007",
+        "password": "karri007",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 78,
+        "nickname": "xlebozovod",
+        "login": "xlebozovod",
+        "password": "xlebozovod",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 79,
+        "nickname": "Shilters",
+        "login": "shilters",
+        "password": "shilters",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 80,
+        "nickname": "_Den_Hockey_",
+        "login": "_den_hockey_",
+        "password": "_den_hockey_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 81,
+        "nickname": "ambitexter",
+        "login": "ambitexter",
+        "password": "ambitexter",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 82,
+        "nickname": "_cookieVip_",
+        "login": "_cookievip_",
+        "password": "_cookievip_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 83,
+        "nickname": "_Bananchik_",
+        "login": "_bananchik_",
+        "password": "_bananchik_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 84,
+        "nickname": "Qwerty267",
+        "login": "qwerty267",
+        "password": "qwerty267",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 85,
+        "nickname": "parolik",
+        "login": "parolik",
+        "password": "parolik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 86,
+        "nickname": "_LightPersik_",
+        "login": "_lightpersik_",
+        "password": "_lightpersik_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 87,
+        "nickname": "kisa_my_my3",
+        "login": "kisa_my_my3",
+        "password": "kisa_my_my3",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 88,
+        "nickname": "SLimBi",
+        "login": "slimbi",
+        "password": "slimbi",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 89,
+        "nickname": "coba4ka3",
+        "login": "coba4ka3",
+        "password": "coba4ka3",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 90,
+        "nickname": "_ShadowArtem_",
+        "login": "_shadowartem_",
+        "password": "_shadowartem_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 91,
+        "nickname": "Milena2019A",
+        "login": "milena2019a",
+        "password": "milena2019a",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 92,
+        "nickname": "_shadownik_",
+        "login": "_shadownik_",
+        "password": "_shadownik_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 93,
+        "nickname": "ILemon",
+        "login": "ilemon",
+        "password": "ilemon",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 94,
+        "nickname": "yokkolk",
+        "login": "yokkolk",
+        "password": "yokkolk",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 95,
+        "nickname": "BuPyC",
+        "login": "bupyc",
+        "password": "bupyc",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 96,
+        "nickname": "Hacker1157",
+        "login": "hacker1157",
+        "password": "hacker1157",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 97,
+        "nickname": "ggshnik",
+        "login": "ggshnik",
+        "password": "ggshnik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 98,
+        "nickname": "TheLekyz",
+        "login": "thelekyz",
+        "password": "thelekyz",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 99,
+        "nickname": "Cat_dankara",
+        "login": "cat_dankara",
+        "password": "cat_dankara",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 100,
+        "nickname": "fan_pro_persika",
+        "login": "fan_pro_persika",
+        "password": "fan_pro_persika",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 101,
+        "nickname": "Shadow_Bamboo",
+        "login": "shadow_bamboo",
+        "password": "shadow_bamboo",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 102,
+        "nickname": "NaR_k0TiK",
+        "login": "nar_k0tik",
+        "password": "nar_k0tik",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 103,
+        "nickname": "_Atikin_475_",
+        "login": "_atikin_475_",
+        "password": "_atikin_475_",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 104,
+        "nickname": "PaaandaK",
+        "login": "paaandak",
+        "password": "paaandak",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    },
+    {
+        "id": 105,
+        "nickname": "ann234",
+        "login": "ann234",
+        "password": "ann234",
+        "uuid": "",
+        "balance": 0,
+        "role": "user"
+    }
+]
