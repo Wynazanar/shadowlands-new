@@ -425,7 +425,7 @@ footer * {
     row-gap: 7px;
 }
 
-.modal-body.login input, button {
+.modal-body.login input, .modal-body.login button {
     width: 100%;
     padding: 10px 15px;
     border: 1px solid rgba(0, 0, 0, 0.2);
