@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Профиль игрока</title>
+    <title>Ваш профиль</title>
     <link rel="stylesheet" href="../src/styles/reset.css">
     <link rel="stylesheet" href="../src/styles/global.css">
     <link rel="shortcut icon" href="favicon.ico">
@@ -56,6 +56,14 @@
         !player.hasOwnProperty("uuid") ||
         !player.hasOwnProperty("balance")) {
         location.href = "../#home";
+    } else {
+        const scripts = [];
+
+        scripts.forEach(script => {
+            const _script = document.createElement("script");
+            _script.src = `src/scripts/${script}.js`;
+            document.body.appendChild(_script);
+        });
     }
 </script>
 </html>
