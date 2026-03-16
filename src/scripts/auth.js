@@ -57,7 +57,7 @@ async function login() {
         return 0;
     }
 
-    const player = await findPlayer(login.value.toLowercase(), password.value);
+    const player = await findPlayer(login.value.toLowerCase(), password.value);
     if (player != null) {
         localStorage.setItem("player", JSON.stringify(player));
         closeLoginModal();
