@@ -1,7 +1,7 @@
 async function findPlayer(type="login", login, password) {
     let PLAYERS = [];
     try {
-        let response = await fetch('/data/players.json');
+        let response = await fetch('../data/players.json');
         if (!response.ok) {
             throw new Error('Response status: ' + response.status);
         }
