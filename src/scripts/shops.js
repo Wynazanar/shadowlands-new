@@ -26,7 +26,7 @@ async function loadShops() {
         artefact: "Артефакты",
     };
 
-    const cat = ["all", "foods", "blocks", "mobs", "books", "artefacts"];
+    const cat = ["all", "food", "blocks", "mob", "book", "armor", "decoration"];
     const shops = await getItems();
     
     const shopsList = document.querySelector(".shops");
@@ -42,7 +42,6 @@ async function loadShops() {
     });
 
     shops.forEach(shop => {
-        console.log(shop.tag);
         shopsList.innerHTML += `
         <div class="shop">
             <img src="${shop.image}" alt="${shop.item}">
