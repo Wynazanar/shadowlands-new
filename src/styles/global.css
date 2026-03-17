@@ -310,8 +310,7 @@ footer * {
 .modal-content {
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(4px);
-    
-    max-width: 950px;
+    max-width: 110vh;
     max-height: fit-content;
     padding: 25px;
     border-radius: 10px;
@@ -329,7 +328,7 @@ footer * {
 }
 
 .modal-body {
-    max-height: 600px;
+    max-height: 70vh;
     display: flex;
     column-gap: 15px;
     align-items: start;
@@ -418,17 +417,6 @@ footer * {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .modal-body.login {
     width: 550px;
     row-gap: 7px;
@@ -450,7 +438,10 @@ footer * {
 
 
 
-
+.villager-card-content {
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -473,12 +464,34 @@ footer * {
     .shops {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .modal-content {
+        max-width: 90vh;
+    }
 }
 
 @media screen and (max-width: 740px) {
     .shops {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .modal-content {
+        max-width: 70vh;
+    }
+
+    .body-photos img {
+        max-width: 250px;
+    }
+
+    .photo-list img {
+        max-width: 50px;
+    }
+    
+    .photo-list {
+        max-width: 250px;
+    }
+
+    
 }
 
 @media screen and (max-width: 490px) {
@@ -502,5 +515,36 @@ footer * {
 @media screen and (max-width: 600px) {
     .towns {
         grid-template-columns: 1fr;
+    }
+
+    .modal-content {
+        max-width: 60vh;
+    }
+
+    .body-photos img {
+        max-width: 170px;
+    }
+
+    .photo-list img {
+        max-width: 45px;
+    }
+
+    .photo-list {
+        max-width: 170px;
+    }
+
+    .villager-card {
+        display: grid;
+        height: fit-content;
+        padding-block: 15px;
+        overflow: hidden;
+    }
+
+    .villager-card-content img {
+        max-width: 50px;
+    }
+
+    .villager-card a {
+        width: 100%;
     }
 }

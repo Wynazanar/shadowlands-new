@@ -86,7 +86,7 @@ async function openAboutTownModal(town) {
                         <div>
                             ${villagers.map(villager =>
                                 `<div class="villager-card">
-                                    <div style="display: flex; align-items: center;">
+                                    <div class="villager-card-content">
                                         <img loading="lazy" alt="" src="https://nmsr.nickac.dev/bust/${villager.uuid.replace(/-/g, "")}">
                                         <div>
                                             <h3>${villager.nickname}</h3>
