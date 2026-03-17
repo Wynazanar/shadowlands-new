@@ -44,14 +44,14 @@ async function loadShops() {
     shops.forEach(shop => {
         shopsList.innerHTML += `
         <div class="shop">
-            <img src="${shop.image}" alt="${shop.item}">
+            <img src="${shop.image}" alt="">
             <div class="shop-info">
                 <h3>${shop.item}</h3>
                 <p>${categories[shop.tag]}</p>
                 <div style="display: flex; justify-content: space-between;">
-                    <h4>${shop.amount} <span style="font-size: 12px;">шт</span></h4>
+                    <h4><b>${shop.amount}</b> <span style="font-size: 12px;">шт</span></h4>
                     <span>—</span>
-                    <h4>${shop.cost} <span style="font-size: 12px;">мф</span></h4>
+                    <h4><b>${shop.cost}</b> <span style="font-size: 12px;">мф</span></h4>
                 </div>
                 <button>Забронировать</button>
             </div>
