@@ -1,7 +1,7 @@
 async function findPlayer(type="login", login, password) {
     let PLAYERS = [];
     try {
-        let response = await fetch('./data/players.json');
+        let response = await fetch('/data/players.json');
         if (!response.ok) {
             throw new Error('Response status: ' + response.status);
         }
@@ -23,9 +23,9 @@ async function setAccount() {
     const account = document.querySelector("#account");
     const auth = JSON.parse(localStorage.getItem("player")) || null;
 
-    const currentPlayer = await findPlayer("id", auth.id, auth.nickname);
-
+    
     if (auth != null) {
+        const currentPlayer = await findPlayer("id", auth.id, auth.nickname);
         account.innerHTML = "";
         account.innerHTML = 
         `

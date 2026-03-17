@@ -44,7 +44,7 @@ async function loadShops() {
     shops.forEach(shop => {
         shopsList.innerHTML += `
         <div class="shop">
-            <img src="${shop.image}" alt="">
+            <img loading="lazy" src="${shop.image}" alt="">
             <div class="shop-info">
                 <h3>${shop.item}</h3>
                 <p>${categories[shop.tag]}</p>

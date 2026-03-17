@@ -1,0 +1,45 @@
+.profile {
+    display: flex;
+    margin-top: 100px;
+    column-gap: 15px;
+}
+
+.profile img {
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.profile-content {
+    width: 100%;
+}
+
+.profile-list {
+    padding: 10px 15px;
+    margin-block: 10px;
+    width: 100%;
+}
+
+.profile-list-title {
+    font-weight: 700;
+}
+
+.profile-list-description {
+    font-size: 12px;
+    color: var(--text-light);
+}
+
+.town-list, .shops-list, .works-list {
+    margin-top: 15px;
+    border: 1px solid var(--text-light);
+    border-radius: 15px;
+    min-height: 65px;
+    display: flex;
+    padding-inline: 10px;
+    column-gap: 10px;
+}
+
+.card {
+    aspect-ratio: 1;
+    width: 65px;
+    background: red;
+}
