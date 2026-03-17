@@ -131,6 +131,8 @@ header {
     width: 100%;
     border-radius: 12px;
     transition: all 0.5s ease-in-out;
+    user-select: none;
+    pointer-events: none;
 }
 
 .town::after {
@@ -225,6 +227,8 @@ section {
 
 .shop img {
     max-width: 64px;
+    user-select: none;
+    pointer-events: none;
 }
 
 .shop h3 {
@@ -244,6 +248,7 @@ section {
     color: var(--primary);
     border-radius: 5px;
     padding: 5px 10px;
+    width: 100%;
     z-index: 3;
 }
 
@@ -252,7 +257,9 @@ section {
     color: var(--white);
 }
 
-
+.shop-info {
+    width: 100%;
+}
 
 
 
@@ -400,6 +407,8 @@ footer * {
     width: 75px;
     padding: 5px;
     border-radius: 5px;
+    pointer-events: none;
+    user-select: none;
 }
 
 
@@ -437,4 +446,61 @@ footer * {
     border: 1px solid var(--primary-border);
     font-weight: 700;
     color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1510px) {
+    .shops {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .shops {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .shops {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .shops {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .shops {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .towns {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .towns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .towns {
+        grid-template-columns: 1fr;
+    }
 }

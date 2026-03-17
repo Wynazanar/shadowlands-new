@@ -46,7 +46,10 @@
             "der1.jpg",
             "der2.jpg",
             "der3.jpg",
-            "der4.jpg"
+            "der4.jpg",
+            "der5.jpg",
+            "der6.jpg",
+            "der7.jpg"
         ],
         "villagers": [
             {"player_id": 43, "role": "Мэр"},
